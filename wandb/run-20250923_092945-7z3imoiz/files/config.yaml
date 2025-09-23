@@ -1,0 +1,29 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            uarpxz3rjx3yfyz9cg8ot7yr699gpq55:
+                codePath: test_wandb.py
+                codePathLocal: test_wandb.py
+                email: simoagadir@hotmail.com
+                executable: C:\Users\T9Y\.conda\envs\llm-learning\python.exe
+                host: LE83-T9Y-FRA
+                os: Windows-10-10.0.22631-SP0
+                program: c:\Users\T9Y\llm-learning-journey\test_wandb.py
+                python: CPython 3.10.18
+                root: C:\Users\T9Y\llm-learning-journey
+                startedAt: "2025-09-23T07:29:45.606345Z"
+                writerId: uarpxz3rjx3yfyz9cg8ot7yr699gpq55
+        m: []
+        python_version: 3.10.18
+        t:
+            "3":
+                - 2
+                - 13
+                - 15
+            "4": 3.10.18
+            "5": 0.22.0
+            "8":
+                - 3
+            "12": 0.22.0
+            "13": windows-amd64
