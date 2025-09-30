@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MOM Project specific
+models/
+vectorstore/
+wandb/
+Untitled.ipynb

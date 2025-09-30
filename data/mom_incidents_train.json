@@ -1,0 +1,282 @@
+[
+  {
+    "text": "Quality inspection failed on Batch B2045. 15% of units outside tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Robot controller error E303. Cannot complete pick-and-place cycle.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Grease application on all linear guides per PM schedule.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Hydraulic fluid analysis results normal. No contamination.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Statistical process control alert. Cpk dropped below 1.33.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Packaging materials out of stock. Production delayed 2 hours.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Injection molding machine temperature sensor failure. Error code E501.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Raw material certificate of conformance missing from shipment.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Scheduled preventive maintenance completed on CNC-A3. All systems operational.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Dimensional variance detected. Parts measuring 0.3mm over specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Weld penetration insufficient on 8 assemblies. X-ray inspection failed.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Warehouse space limitation. Cannot receive scheduled delivery.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Electrical panel door found open during operation. Exposed contacts.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Gearbox oil leak on Conveyor Drive Unit 5.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Vacuum pump failure on Packaging Line. Low pressure alarm.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Material hardness test failure. Below HRC 45 requirement.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Software update applied to PLC controllers. Version 4.2 installed.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "First aid kit supplies depleted. Bandages and burn gel needed.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "PLC communication error on Assembly Line 3. All stations offline.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Vibration analysis on all rotating equipment. Baseline updated.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Encoder failure on Motor Drive 12. Position feedback lost.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Pressure relief valve test overdue. Last inspection 18 months ago.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Calibration of torque wrenches completed. Certificates updated.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Hot surface warning label missing on oven door.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Hydraulic pump cavitation detected on Press #4.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Urgent material request for Batch B3021. Stock depleted earlier than forecast.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "CNC-A3 stopped unexpectedly with error E402. Hydraulic pressure low detected.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Consignment inventory agreement signed. Stock level maintained.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Package seal strength below minimum. 3 samples failed peel test.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Emergency stop button unresponsive. Immediate inspection required.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Operator reported safety guard malfunction on Press #3.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Spindle bearing seized on CNC-B5. Unusual grinding noise reported.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Hearing protection non-compliance in high noise area.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Aisle blocked with materials. Emergency exit obstructed.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Price increase notification from supplier. 12% effective next month.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Leak test failure on 5 housings. Pressure drop detected.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Material shortage detected. Steel stock below reorder point.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Lockout/Tagout procedure violation observed during maintenance.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Infrared thermography scan completed. No hot spots detected.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Surface finish defects found on 23 units. Rough texture on coating.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Supplier delivery delay. Raw materials expected 3 days late.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Supplier change notification received. New source for Part #A402.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Lead time increased by supplier. 6 weeks instead of 4 weeks.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Welding torch electrode wear exceeded threshold. Replacement needed.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Alternative supplier approved due to capacity constraints.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Functional test failure. 4 units show intermittent operation.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Fire extinguisher inspection overdue by 3 months.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Import customs clearance delayed. Documents missing.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Battery replacement in UPS system. Backup power tested OK.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Fall from height near-miss. Ladder placement unstable.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Bearing replacement on Motor Drive 7. Vibration levels normal.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Inventory discrepancy found. Physical count 50 units short.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Assembly torque values outside range. 12 fasteners under spec.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Laser cutting head collision with material. Optical sensor damaged.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Paint thickness uneven. Orange peel effect visible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Alignment check performed on robotic arm. Within specification.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Coolant system flushed and refilled. Concentration at 8%.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Slip hazard reported near degreasing station. Oil residue on floor.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Burr height exceeds specification on machined edges.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Ergonomic concern reported. Repetitive motion causing strain.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Belt tension adjustment on Conveyor System. Tracking improved.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Wrong part number delivered. PO-2045 items do not match specification.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Press machine hydraulic leak detected. Oil puddle under unit.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Minimum order quantity changed. New MOQ is 500 units.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Expedited shipping required. Additional cost $850 approved.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Material handling damage during internal transfer. 8 units scrapped.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Machine guarding missing on rotating shaft. Pinch point exposed.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Optical inspection detected scratches on polished surfaces.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Label placement accuracy outside acceptable range.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Ventilation system inadequate. Fume concentration above limit.",
+    "label": "SAFETY_ISSUE"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Material traceability issue. Heat lot number illegible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Color mismatch detected in powder coating. Batch A302 rejected.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Lubrication performed on Conveyor Drive Units 1-5. Next service due 2025-02-15.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Just-in-time delivery sequence disruption. Line feed shortage.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Pneumatic actuator stuck in extended position. Manual override required.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Sensor cleaning performed on Vision Inspection Station.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Power supply failure on PLC cabinet. Backup battery depleted.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Pneumatic line pressure test completed. No leaks found.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Conveyor belt system malfunction. Emergency stop activated at 14:32.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Concentricity error exceeds 0.05mm tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Chemical spill in mixing area. 2 liters of solvent on floor.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Compressed air hose disconnected under pressure. Whipping hazard.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Forklift near-miss incident in Warehouse Zone B. No injuries.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Robotic arm #7 experienced servo motor failure. Production halted on Line 2.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Safety interlock function test passed. Response time 45ms.",
+    "label": "MAINTENANCE"
+  }
+]

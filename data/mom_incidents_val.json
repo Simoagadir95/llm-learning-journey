@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Electrical connections tightened per thermal inspection.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Emergency stop circuit triggered unexpectedly. All lines down.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Lubrication system blocked on CNC-C2. Alarm triggered.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Light curtain bypass detected. Safety system integrity compromised.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Cooling system failure on Furnace #2. Temperature rising above limits.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Contamination found in sealed components. Foreign particles present.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Chemical composition analysis out of specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Air filter replacement on Compressor #2. Pressure recovery good.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Filter replacement completed on Hydraulic Power Unit. Pressure normalized.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Personal protective equipment non-compliance. 2 operators without safety glasses.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Freight damage reported on incoming shipment. 15 pallets affected.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Quality issue with incoming components. Batch rejected by receiving inspection.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Thread depth non-conformance. Tap tool wear suspected.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Emergency lighting test completed. All fixtures functional.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Vision system camera malfunction. Quality inspection offline.",
+    "label": "MACHINE_BREAKDOWN"
+  }
+]
