@@ -1,62 +1,302 @@
 [
   {
-    "text": "Electrical connections tightened per thermal inspection.",
-    "label": "MAINTENANCE"
-  },
-  {
-    "text": "Emergency stop circuit triggered unexpectedly. All lines down.",
-    "label": "MACHINE_BREAKDOWN"
-  },
-  {
-    "text": "Lubrication system blocked on CNC-C2. Alarm triggered.",
-    "label": "MACHINE_BREAKDOWN"
-  },
-  {
-    "text": "Light curtain bypass detected. Safety system integrity compromised.",
-    "label": "SAFETY_ISSUE"
-  },
-  {
-    "text": "Cooling system failure on Furnace #2. Temperature rising above limits.",
-    "label": "MACHINE_BREAKDOWN"
-  },
-  {
-    "text": "Contamination found in sealed components. Foreign particles present.",
-    "label": "QUALITY_ISSUE"
-  },
-  {
-    "text": "Chemical composition analysis out of specification.",
-    "label": "QUALITY_ISSUE"
-  },
-  {
-    "text": "Air filter replacement on Compressor #2. Pressure recovery good.",
-    "label": "MAINTENANCE"
-  },
-  {
-    "text": "Filter replacement completed on Hydraulic Power Unit. Pressure normalized.",
-    "label": "MAINTENANCE"
-  },
-  {
-    "text": "Personal protective equipment non-compliance. 2 operators without safety glasses.",
-    "label": "SAFETY_ISSUE"
-  },
-  {
-    "text": "Freight damage reported on incoming shipment. 15 pallets affected.",
+    "text": "Inventory discrepancy with incoming components. Emergency stop.",
     "label": "SUPPLY_CHAIN"
   },
   {
-    "text": "Quality issue with incoming components. Batch rejected by receiving inspection.",
-    "label": "SUPPLY_CHAIN"
+    "text": "emergency stop door open. Immediate inspection required.",
+    "label": "SAFETY_ISSUE"
   },
   {
-    "text": "Thread depth non-conformance. Tap tool wear suspected.",
-    "label": "QUALITY_ISSUE"
-  },
-  {
-    "text": "Emergency lighting test completed. All fixtures functional.",
+    "text": "Emergency lighting test completed. Certified.",
     "label": "MAINTENANCE"
   },
   {
-    "text": "Vision system camera malfunction. Quality inspection offline.",
+    "text": "Torque values pressure drop. {detail}.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch B3021. 12% of units outside tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Color mismatch detected. Parts measuring 0.5mm under specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Supplier notification received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Quality inspection failed on Batch A302. 12% of units below specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Chemical spill detected. Scratches visible.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Conveyor belt malfunction on CNC-B5. Alarm activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Quality inspection failed on Batch C405. 25% of units outside tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Visual inspection on Pneumatic system. No issues detected.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Surface finish defects detected. Parts measuring 0.2mm outside specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Thread depth pressure drop. {detail}.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Supplier quality issue. Shortage detected.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Chemical spill detected. Rough texture.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Packaging materials hydraulic leak detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Surface finish defects detected. Parts measuring 1mm outside specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "emergency stop door open. Critical issue.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Chemical spill detected. Contamination present.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Forklift incident in Mixing station. Minor injury.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Bearing replacement on safety guard. Minor injury.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "CNC-B5 noise detected. Hydraulic pressure low.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Safety interlock test completed. Signed off.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Price increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Filter replacement completed on CNC-B5. Ready for production.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Forklift incident on delivery PO-2045. 15 pallets affected.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Wrong part number with materials. Safety shutdown.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Chemical spill detected. Contamination present.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Belt adjustment performed on emergency stop. Performance improved.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Press #3 overheating detected. Spindle overheating.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Preventive maintenance completed on CNC-C2. Testing complete.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Calibration completed on Machine #5. Ready for production.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Hydraulic system malfunction on Press #3. Emergency stop activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Cooling system malfunction on Furnace #2. Safety shutdown activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Pneumatic system malfunction on CNC-C2. Lockout activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Operator reported light curtain hydraulic leak on Conveyor Line 2.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Safety interlock test completed. Signed off.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Pinch point detected. Contamination present.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Vibration analysis on Hydraulic system. Normal operation.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Belt adjustment performed on emergency stop. Within specification.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Equipment contact on delivery PO-2045. 8 units affected.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "CNC-B5 experienced spindle failure. Production halted on Line 1.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Equipment contact in Warehouse Zone B. Minor injury.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Visual inspection on Cooling system. Baseline updated.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Price increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Aisle blockage observed during Filter replacement.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Operator reported machine guarding noise on Press #4.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Supplier capacity constraints. Expected 3 days late.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Thermography scan on Pneumatic system. No issues detected.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Supplier notification received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Fall hazard detected. Rough texture.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "CNC-A3 noise detected. Spindle overheating.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Conveyor belt malfunction on CNC-B5. Safety shutdown activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "outside tolerance found on 8 units. Scratches visible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Weld penetration failure on 5 assemblies. X-ray inspection failed.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch B2045. 20% of units outside tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Torque values vibration. {detail}.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Lead time increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "PPE non-compliance observed during Calibration.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "CNC-B5 vibration detected. Encoder failure.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Machine #5 noise detected. Power fluctuation.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Quality inspection failed on Batch A302. 12% of units with surface defects.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Supplier notification received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Filter replacement completed on Press #3. All systems operational.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Operator reported light curtain hydraulic leak on Press #3.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Visual inspection on Pneumatic system. Normal operation.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Lead time increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "safety guard door open. Critical issue.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "PPE non-compliance observed during Calibration.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Pneumatic system malfunction on Robot #7. Emergency stop activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "with surface defects found on 8 units. Scratches visible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "outside tolerance found on 15 units. Scratches visible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Alignment check on light curtain. No injuries.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Cooling system malfunction on Machine #5. Emergency stop activated.",
     "label": "MACHINE_BREAKDOWN"
   }
 ]

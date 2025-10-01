@@ -1,62 +1,302 @@
 [
   {
-    "text": "Material traceability issue. Heat lot number illegible.",
-    "label": "QUALITY_ISSUE"
-  },
-  {
-    "text": "Color mismatch detected in powder coating. Batch A302 rejected.",
-    "label": "QUALITY_ISSUE"
-  },
-  {
-    "text": "Lubrication performed on Conveyor Drive Units 1-5. Next service due 2025-02-15.",
+    "text": "Calibration completed on CNC-B5. Ready for production.",
     "label": "MAINTENANCE"
   },
   {
-    "text": "Just-in-time delivery sequence disruption. Line feed shortage.",
+    "text": "Inventory discrepancy with shipment. Emergency stop.",
     "label": "SUPPLY_CHAIN"
   },
   {
-    "text": "Pneumatic actuator stuck in extended position. Manual override required.",
+    "text": "spindle failure on CNC-B5. Error code E402.",
     "label": "MACHINE_BREAKDOWN"
   },
   {
-    "text": "Sensor cleaning performed on Vision Inspection Station.",
-    "label": "MAINTENANCE"
+    "text": "Pinch point detected. Rough texture.",
+    "label": "SAFETY_ISSUE"
   },
   {
-    "text": "Power supply failure on PLC cabinet. Backup battery depleted.",
+    "text": "encoder failure on Press #4. Error code E303.",
     "label": "MACHINE_BREAKDOWN"
   },
   {
-    "text": "Pneumatic line pressure test completed. No leaks found.",
-    "label": "MAINTENANCE"
-  },
-  {
-    "text": "Conveyor belt system malfunction. Emergency stop activated at 14:32.",
-    "label": "MACHINE_BREAKDOWN"
-  },
-  {
-    "text": "Concentricity error exceeds 0.05mm tolerance.",
+    "text": "below specification found on 5 units. Rough texture.",
     "label": "QUALITY_ISSUE"
   },
   {
-    "text": "Chemical spill in mixing area. 2 liters of solvent on floor.",
-    "label": "SAFETY_ISSUE"
+    "text": "Quality inspection failed on Batch C405. 8% of units with surface defects.",
+    "label": "QUALITY_ISSUE"
   },
   {
-    "text": "Compressed air hose disconnected under pressure. Whipping hazard.",
-    "label": "SAFETY_ISSUE"
+    "text": "Raw materials vibration detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
   },
   {
-    "text": "Forklift near-miss incident in Warehouse Zone B. No injuries.",
-    "label": "SAFETY_ISSUE"
-  },
-  {
-    "text": "Robotic arm #7 experienced servo motor failure. Production halted on Line 2.",
+    "text": "Machine #5 experienced PLC controller failure. Production halted on Assembly Area.",
     "label": "MACHINE_BREAKDOWN"
   },
   {
-    "text": "Safety interlock function test passed. Response time 45ms.",
+    "text": "Press #4 vibration detected. Encoder failure.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Raw materials vibration detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "with surface defects found on 15 units. Scratches visible.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch B3021. 20% of units with surface defects.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Safety interlock test completed. Certified.",
     "label": "MAINTENANCE"
+  },
+  {
+    "text": "Operator reported emergency stop vibration on Assembly Line 3.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Price increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Thermography scan on Cooling system. No issues detected.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Supplier notification received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "LOTO violation observed during Preventive maintenance.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch A302. 15% of units with surface defects.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Near-miss in Warehouse Zone B. Minor injury.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Chemical spill detected. Scratches visible.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Surface finish defects detected. Parts measuring 0.3mm outside specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Thermography scan on Pneumatic system. Baseline updated.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Safety interlock test completed. Signed off.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Slip hazard detected. Scratches visible.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Visual inspection on Pneumatic system. Normal operation.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Leak test failure on 12 assemblies. X-ray inspection failed.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Color mismatch detected. Parts measuring 0.2mm over specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch B2045. 8% of units below specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Aisle blockage observed during Calibration.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "servo motor failure on Furnace #2. Error code E501.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Press #3 overheating detected. Spindle overheating.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Preventive maintenance completed on Assembly Line 3. Testing complete.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "below specification found on 12 units. Rough texture.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Safety interlock test completed. Documented in CMMS.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Color mismatch detected. Parts measuring 0.5mm outside specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Thread depth hydraulic leak. {detail}.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "emergency stop bypass detected. Critical issue.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "CNC-A3 hydraulic leak detected. Power fluctuation.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Slip hazard detected. Rough texture.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "LOTO violation observed during Filter replacement.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Color mismatch detected. Parts measuring 1mm outside specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Quality inspection failed on Batch B4012. 25% of units outside tolerance.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Surface finish defects detected. Parts measuring 0.2mm under specification.",
+    "label": "QUALITY_ISSUE"
+  },
+  {
+    "text": "Supplier notification received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Pneumatic system malfunction on CNC-B5. Alarm activated.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Fall hazard detected. Scratches visible.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Supplier capacity constraints. Production delayed 2 hours.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Packaging materials hydraulic leak detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "CNC-B5 hydraulic leak detected. Hydraulic pressure low.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Steel stock overheating detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Software update on safety guard. No injuries.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "servo motor failure on Machine #5. Error code E402.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Bearing replacement on machine guarding. No injuries.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Calibration completed on Press #3. All systems operational.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Software update on light curtain. Medical attention required.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Slip hazard detected. Rough texture.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Software update on emergency stop. Medical attention required.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Packaging materials vibration detected. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Bearing replacement on safety guard. No injuries.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "PPE non-compliance observed during Filter replacement.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Visual inspection on Conveyor belt. Baseline updated.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Wrong part number with materials. Emergency stop.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "Pinch point detected. Contamination present.",
+    "label": "SAFETY_ISSUE"
+  },
+  {
+    "text": "Alignment check on machine guarding. No injuries.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Machine #5 experienced encoder failure. Production halted on Line 1.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Sensor cleaning performed on machine guarding. Performance improved.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Emergency lighting test completed. Documented in CMMS.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Thermography scan on Hydraulic system. Normal operation.",
+    "label": "MAINTENANCE"
+  },
+  {
+    "text": "Machine #5 experienced spindle failure. Production halted on Line 3.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "Lead time increase received. {detail}.",
+    "label": "SUPPLY_CHAIN"
+  },
+  {
+    "text": "CNC-A3 stopped unexpectedly with error E303. Hydraulic pressure low.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "servo motor failure on Assembly Line 3. Error code E501.",
+    "label": "MACHINE_BREAKDOWN"
+  },
+  {
+    "text": "below specification found on 15 units. Scratches visible.",
+    "label": "QUALITY_ISSUE"
   }
 ]
